@@ -231,10 +231,6 @@
   .main_page a{
     color: var(--p-color);
   }
-  .Hero{
-    width: 100%;
-    height: 500px;
-  }
 
   .notes{
     text-align: center;
@@ -244,10 +240,6 @@
     margin-top: 5px;
     color: var(--p-color);
   }
-  .mySlides{
-    display:none;
-  }
-
   .class11-head p{
     font-size: 30px;
     color: var(--p-color);
@@ -466,31 +458,7 @@ function displayNotes() {
 
 }
 
-let slideIndex = 0;
 
-function showSlides() {
-  let slides = document.getElementsByClassName("mySlides");
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) { slideIndex = 1; }
-  slides[slideIndex - 1].style.display = "block";
-  setTimeout(showSlides, 5000); // Change image every 2 seconds (2000 milliseconds)
-}
-
-function plusSlides(n) {
-  slideIndex += n;
-  let slides = document.getElementsByClassName("mySlides");
-  if (slideIndex > slides.length) { slideIndex = 1; }
-  if (slideIndex < 1) { slideIndex = slides.length; }
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slides[slideIndex - 1].style.display = "block";
-}
-
-showSlides(); // Start the slideshow
 </script>
 
 </body>
