@@ -54,10 +54,12 @@
     <!-- Notes will be displayed using JavaScript -->
   </div>
 </div>
-<div id="image-box">
-  <img src="https://github.com/Smart-Study1/SmartStudy/blob/main/Thumbnail%20bg%203.jpg?raw=true">
-
-
+<section class="hero">
+      <div class="hero-text">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Explore my work and projects</p>
+      </div>
+    </section>
 
 <div class="footer">
   
@@ -242,6 +244,29 @@
     margin-top: 5px;
     color: var(--p-color);
   }
+  .hero {
+  height: 80vh; /* Adjust as needed */
+  background-image: url('https://github.com/Smart-Study1/SmartStudy/blob/main/Thumbnail%20bg%203.jpg?raw=true');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-text {
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.5em;
+}
   .class11-head p{
     font-size: 30px;
     color: var(--p-color);
