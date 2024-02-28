@@ -281,7 +281,7 @@ nav{
 /* Hero Section*/ 
 .hero {
   height: 85vh; /* Adjust as needed */
-  background-image: url('banner/pexels-irina-iriser-1366957.jpg');
+  background-image: url('pexels-irina-iriser-1366957.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
