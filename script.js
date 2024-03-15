@@ -1,3 +1,4 @@
+
 function toggleNav() {
     var sidebar = document.getElementById("mySidebar");
     var hamburger = document.getElementById("hamburger");
@@ -13,10 +14,3 @@ function toggleNav() {
     sidebar.style.width = "0";
     hamburger.style.display = "block"; // Display the hamburger icon
   }
-
-
-  var dark_toggle = document.getElementById("dark_toggle");
-  dark_toggle.onclick=function(){
-      dark_toggle.classList.toggle("dark-btn-on");
-  document.body.classList.toggle("dark-theme");
-}
