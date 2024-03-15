@@ -1,5 +1,3 @@
-alert("welcome to The Youth Hub Buy Anything, Anywhere, Anyhow, and Anytime")
-
 function toggleNav() {
     var sidebar = document.getElementById("mySidebar");
     var hamburger = document.getElementById("hamburger");
@@ -15,5 +13,4 @@ function toggleNav() {
     sidebar.style.width = "0";
     hamburger.style.display = "block"; // Display the hamburger icon
   }
-
   
